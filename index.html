@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .product-card {
+            width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
+
+        .card-image img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card-details {
+            padding: 8px;
+            background-color: #fff;
+        }
+
+        .local-tag {
+            display: inline-block;
+            width: 92%;
+            background-color: #00aa44;
+            color: white;
+            font-size: 15px;
+            padding: 5px 10px;
+            border-radius: 0 0 40px 0;
+            font-weight: bold;
+        }
+
+        h4 {
+            font-size: 16px;
+            margin: 0;
+            color: #333;
+            line-height: 1.4;
+        }
+
+        .pricing {
+            margin-top: 10px;
+        }
+
+        .price {
+            font-size: 18px;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .old-price {
+            font-size: 12px;
+            text-decoration: line-through;
+            color: #B0BEC5;
+        }
+
+
+        .discount {
+           font-size: 12px;
+            color: #FF5252;
+        }
+        .discount-badge {
+            background-color: #ff000080;
+            color: white;
+            padding: 5px 8px;
+            font-size: 10px;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        .extra-info {
+            margin-top: 15px;
+        }
+
+        .location {
+            display: inline-block;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .rating {
+            margin-top: 5px;
+            display: flex;
+            align-items: center;
+        }
+
+        .star {
+            color: #fbc02d;
+            margin-right: 5px;
+        }
+
+        .rating-score {
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="product-card">
+        <div class="card-image">
+            <img src="https://s3.ap-southeast-1.amazonaws.com/assets.femaledaily.com/images/post/8bb63b92a7f8351feb7b104faf61faf7.jpg"
+                alt="Product Image">
+                <span class="local-tag">Beli Lokal</span>
+        </div>
+        <div class="card-details">
+            <h4>KKV - AKITA HACHI White Tea Face Cleansing Oil 150ml - White Tea</h4>
+            <div class="pricing">
+                <span class="price">Rp38.900</span>
+                <br>
+                <span class="old-price">Rp59.900</span>
+                <span class="discount">35%</span>
+                <br>
+                <span class="discount-badge">Diskon 7%</span>
+            </div>
+            <div class="extra-info">
+                <span class="location">✅ Kota Konoha</span>
+                <div class="rating">
+                    <span class="star">⭐</span>
+                    <span class="rating-score">5.0 | 6k+ terjual</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
